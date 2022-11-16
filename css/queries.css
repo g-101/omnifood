@@ -1,0 +1,19 @@
+/* rem and em não depende do font size em media queries. 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 85em) {
+  .hero-grid {
+    max-width: 120rem;
+  }
+
+  h1 {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
