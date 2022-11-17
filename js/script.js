@@ -6,6 +6,33 @@ btnNavEl.addEventListener('click', function () {
   headerEl.classList.toggle('nav-open');
 });
 
+/* scrolling */
+const allLinks = document.querySelectorAll('a:link');
+
+allLinks.forEach(function (link) {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    const href = link.getAttribute('href');
+
+    // Scroll de volta ao topo
+    if (href === '#')
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+
+    // Scroll para outros links
+    if (href !== '#' && href.startsWith('#')) {
+      const sectionEl = document.querySelector(href);
+      sectionEl.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // fecha a navegação mobile
+    if (link.classList.contains('main-nav-link')) headerEl.classList.toggle('nav-open');
+  });
+});
+
+// conserta o bug da propriedade flexbox gap em algumas versões do Safari
 function checkFlexGap() {
   var flex = document.createElement('div');
   flex.style.display = 'flex';

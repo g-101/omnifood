@@ -1,7 +1,7 @@
-/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+/* rem e em não depende do font-size em media queries! */
 
 /**************************/
-/* BELOW 1344px (Smaller desktops) */
+/* ABAIXO 1344px (Smaller desktops) */
 /**************************/
 
 @media (max-width: 84em) {
@@ -19,7 +19,7 @@
 }
 
 /**************************/
-/* BELOW 1200px (Landscape Tablets) */
+/* ABAIXO 1200px (Landscape Tablets) */
 /**************************/
 
 @media (max-width: 75em) {
@@ -59,7 +59,7 @@
 }
 
 /**************************/
-/* BELOW 944px (Tablets) */
+/* abaixo 944px (Tablets) */
 /**************************/
 
 @media (max-width: 59em) {
@@ -182,7 +182,7 @@
 }
 
 /**************************/
-/* BELOW 704px (Smaller tablets) */
+/* ABAIXO 704px (Smaller tablets) */
 /**************************/
 
 @media (max-width: 44em) {
@@ -221,7 +221,7 @@
 }
 
 /**************************/
-/* BELOW 544px (Phones) */
+/* ABAIXO 544px (Phones) */
 /**************************/
 
 @media (max-width: 34em) {
