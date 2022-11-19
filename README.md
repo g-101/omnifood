@@ -4,13 +4,16 @@ Demo: [Acesse aqui!](https://g101-omnifood.netlify.app)
 
 ## Sobre o projeto
 
-## Screenshots
+### Screenshots
 
-Desktop:
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+#### Desktop:
 
-Mobile:
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Desktop](./screenshots/2desktop.png)
+![Desktop](./screenshots/2.1desktop.png)
+
+#### Mobile:
+
+![App Screenshot](./screenshots/1mobile.png)
 
 ## Tech Stack
 
