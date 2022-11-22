@@ -1,8 +1,10 @@
 # Omnifood
 
-Demo: [Acesse aqui!](https://g101-omnifood.netlify.app)
+[Acesse o Omnifood aqui!](https://g101-omnifood.netlify.app)
 
 ## Sobre o projeto
+
+O Omnifood é uma landing page fictica de um produto que oferece uma assinatura de comida suadavel.
 
 ### Screenshots
 
