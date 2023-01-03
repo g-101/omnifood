@@ -19,7 +19,7 @@ Neste projeto, coloquei conceitos em pratica sobre tipografia, whitespace, sombr
 
 ![App Screenshot](./screenshots/1mobile.png)
 
-### CORES
+### Cores
 
 ```css
 - Primary: #e67e22
@@ -40,7 +40,7 @@ Neste projeto, coloquei conceitos em pratica sobre tipografia, whitespace, sombr
 #333
 ```
 
-### FONTES
+### Fontes
 
 - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
 - Weights: 400, 500, 700
